@@ -9,7 +9,7 @@ const EditBook = () => {
    const navigate = useNavigate();
 const {state} = useLocation();
 
-const [id, setId] = useState(state.id);
+const [id] = useState(state.id);
 const [title, setTitle] = useState(state.title);
   const [author, setAuthor] = useState(state.author);
 
